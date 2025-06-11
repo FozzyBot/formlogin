@@ -1,0 +1,63 @@
+body {
+  font-family: sans-serif;
+  background-color: #f0f0f0;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.tab-container {
+  width: 300px;
+  margin: 100px auto;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.tabs {
+  display: flex;
+}
+
+.tabs button {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  background: #ddd;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.tabs button.active {
+  background: #3498db;
+  color: white;
+}
+
+.form-container {
+  padding: 20px;
+}
+
+.form-tab input {
+  width: 90%;
+  margin: 10px 0;
+  padding: 10px;
+}
+
+.form-tab button {
+  padding: 10px 20px;
+  margin-top: 10px;
+}
+
+.welcome {
+  margin-top: 100px;
+}
+
+#audio-controls {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
+#audio-controls button {
+  padding: 8px 10px;
+  font-size: 14px;
+}
